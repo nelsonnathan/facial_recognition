@@ -4,6 +4,10 @@
 Home
 {% endblock %}
 
+{% block navbar %}
+    {{ nav.my_navbar.render() }}
+{% endblock %}
+
 {% block content %}
     <div class="container">
         <h1>home page</h1>
